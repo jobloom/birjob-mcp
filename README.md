@@ -16,6 +16,12 @@ This repository holds no code: only the server's address, a Gemini CLI extension
 | MCP Registry | `com.birjob/jobs` |
 | Setup page | https://www.birjob.com/ai |
 
+## Demo
+
+BirJob in ChatGPT, in 74 seconds: a search, one job's details, matching by skills, the BirJob sign-in, saving a job, tracking an application, and a request it does not do (applying for you).
+
+![BirJob in ChatGPT: search, job details, sign-in, saved jobs and the application tracker](demo/birjob-chatgpt-walkthrough.gif)
+
 ## Connect
 
 Add the server in your client's MCP or connector settings; pasting the address into a chat is not enough. Most clients take this:
@@ -108,6 +114,8 @@ Custom MCP servers (formerly developer mode) are added on the web:
 2. Name it BirJob and enter `https://www.birjob.com/mcp` as the **Server URL**.
 3. For authentication, choose **OAuth or no authentication**. Search then works without signing in, and ChatGPT asks you to sign in to BirJob when you use an account tool.
 4. Confirm the warning, select **Create as a plugin** and install it. In a chat, type `@` and pick BirJob.
+
+If ChatGPT answers "This app does not provide a browser setup URL right now" when it asks for more access, sign in from the plugin's settings instead: **Settings → Plugins → BirJob → Connect another account**, then allow access on the BirJob page that opens.
 
 ## Tools
 
