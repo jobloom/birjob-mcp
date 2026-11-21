@@ -1,0 +1,10 @@
+{
+  "name": "birjob",
+  "version": "1.0.0",
+  "description": "Search Azerbaijan's job market on BirJob: jobs from more than 120 job sites and career pages, each listed once.",
+  "mcpServers": {
+    "birjob": {
+      "httpUrl": "https://www.birjob.com/mcp"
+    }
+  }
+}
